@@ -27,6 +27,7 @@ Além deste repositório, mantenho um registro completo no meu Notion, onde docu
 
 - Anotações de estudo.
 - Casos de teste detalhados.
+- Planos de Testes simples.
 - Relatórios de bug mais complexos ou relevantes.
 - Checklist de estudos.
 - Referências e materiais adicionais.
