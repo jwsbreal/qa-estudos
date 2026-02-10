@@ -4,11 +4,10 @@ module.exports = defineConfig({
   allowCypressEnv: false,
 
   e2e: {
-    video: true,                 // grava vídeo
+    video: true, // grava vídeo
     screenshotOnRunFailure: true, // print em falha
-viewportWidth: 1280,
-viewportHeight: 720,
-
+    viewportWidth: 1280,
+    viewportHeight: 720,
 
     setupNodeEvents(on, config) {
       // listeners, se precisar no futuro
