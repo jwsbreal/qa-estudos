@@ -1,44 +1,41 @@
 describe("template spec", () => {
+  beforeEach(() => {
+    cy.visit("https://testautomationpractice.blogspot.com/"); //beforeEach significa: 'antes de cada () =>' eu devo executar o seguinte comando...
+  });
 
-  
-  it("passes", () => {
-    cy.visit("https://testautomationpractice.blogspot.com/"); // Primeiro, acessamos a página de teste
+  // it("passes", () => {
+  //   cy.visit("https://testautomationpractice.blogspot.com/"); // Primeiro, acessamos a página de teste
 
-    //Etapa 0
-    it("Verifica o título da página", () => {
-      cy.get("#post-body-1307673142697428135 > :nth-child(2)");
-    });
+  //Etapa 0
+  it("Verifica o título da página", () => {
+    cy.title().should('include', "Automation Testing Practice");
+  });
 
-    //Etapa 1
-    it("Preenche o formulário com os dados digitados", () => {
-      cy.clear().preencherFormulario(
-        "Usuário Teste",
-        "usuario@teste.com",
-        "+5511999999999",
-        "Rua Teste, 123, Cidade Teste, Estado Teste, CEP 12345-678",
-      );
-    });
+  //Etapa 1
+  it("Preenche o formulário com dados: digitado, marcação, check e cascata", () => {
+    cy.preencherFormulario(
+      "Usuário Teste",
+      "usuario@teste.com",
+      "+5511999999999",
+      "Rua Teste, 123, Cidade Teste, Estado Teste, CEP 12345-678",
+    );
 
-    //Etapa 2
-    it("Fazer marcação de opções clicáveis", () => {
-      cy.get('input[value="male"]').check();
-      cy.get('input[value="sunday"]').check();
-      cy.get('input[value="monday"]').check();
-      cy.get('input[value="tuesday"]').check();
-      cy.get('input[value="wednesday"]').check();
-      cy.get('input[value="thursday"]').check();
-      cy.get('input[value="friday"]').check();
-      cy.get('input[value="saturday"]').check();
-    });
+    //Etapa 2 - Dados em marcação e em check
+    cy.get('input[value="male"]').check();
+    cy.get('input[value="sunday"]').check();
+    cy.get('input[value="monday"]').check();
+    cy.get('input[value="tuesday"]').check();
+    cy.get('input[value="wednesday"]').check();
+    cy.get('input[value="thursday"]').check();
+    cy.get('input[value="friday"]').check();
+    cy.get('input[value="saturday"]').check();
 
     //Etapa 3 - Testamos os menus em cascata, localizando as classes no inspector do navegador e acessando através do get
-    it("Fazer seleção no menu cascata", () => {
     cy.get("#country").select("Brazil");
     cy.get("#colors").select("Green");
     cy.get("#animals").select("Lion");
 
-
-    //Etapa 4 - 
+    //Etapa 4 -
     // DESAFIO 1: O desafio é preencher os campos de data, que possuem um Date Picker, apesar de possuir um id
     cy.get("#datepicker").clear().type("09/12/1992");
 
@@ -54,7 +51,6 @@ describe("template spec", () => {
 
     //Finalização do formulário com submit button.
     cy.get(".submit-btn").click();
-        });
   });
 });
 
