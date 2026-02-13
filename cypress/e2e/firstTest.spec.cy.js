@@ -21,7 +21,7 @@ describe("template spec", () => {
     );
 
     //Etapa 2 - Dados em marcação e em check
-    cy.get('input[value="male"]').check();
+    cy.get('input[value="male"]').should('be.visible').check();
     cy.get('input[value="sunday"]').check();
     cy.get('input[value="monday"]').check();
     cy.get('input[value="tuesday"]').check();
