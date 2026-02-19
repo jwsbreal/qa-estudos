@@ -2,9 +2,7 @@
 
 
 Repositório criado para acompanhar e registrar minha evolução no estudo de Quality Assurance (QA).
-
 Aqui reúno casos de teste, relatórios de bugs e outros materiais que produzo ao longo do meu cronograma de estudos.
-
 Este repositório é atualizado diariamente, conforme avanço nas minhas atividades práticas e teóricas.
 
 
@@ -42,11 +40,8 @@ O Notion funciona como meu hub central de estudos e acompanhamento de progresso.
 --
 
 - Desenvolver habilidades práticas em QA
-
 - Criar histórico visível da evolução do aprendizado
-
 - Exercitar escrita profissional de cenários e relatórios
-
 - Consolidar melhores práticas de teste
 
 🚧 Atualizações Futuras
@@ -55,15 +50,10 @@ O Notion funciona como meu hub central de estudos e acompanhamento de progresso.
 Conforme avanço, pretendo adicionar:
 
 ✔️ Testes exploratórios
-
 ✔️ Matrizes de teste
-
 ✔️ Checklist de qualidade
-
 ✔️ Estudos sobre automação
-
 ✔️ Documentações e templates
-
 ✔️ Exemplos de testes em ferramentas e metodologias diferentes
 
 
