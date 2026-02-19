@@ -21,14 +21,10 @@ describe("template spec", () => {
     );
 
     //Etapa 2 - Dados em marcação e em check
+
     cy.get('input[value="male"]').should('be.visible').check();
-    cy.get('input[value="sunday"]').check();
-    cy.get('input[value="monday"]').check();
-    cy.get('input[value="tuesday"]').check();
-    cy.get('input[value="wednesday"]').check();
-    cy.get('input[value="thursday"]').check();
-    cy.get('input[value="friday"]').check();
-    cy.get('input[value="saturday"]').check();
+    cy.preencherFormularioComCheck();
+
 
     //Etapa 3 - Testamos os menus em cascata, localizando as classes no inspector do navegador e acessando através do get
     cy.get("#country").select("Brazil");
