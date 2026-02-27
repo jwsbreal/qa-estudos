@@ -1,74 +1,62 @@
 # 📘 QA Estudos
 
+---
 
-Repositório criado para acompanhar e registrar minha evolução no estudo de Quality Assurance (QA).
+## 👤 Apresentação
 
-Aqui reúno casos de teste, relatórios de bugs e outros materiais que produzo ao longo do meu cronograma de estudos.
+Olá! Meu nome é Jonathan, sou entusiasta de **Quality Assurance (QA)** e estou em constante evolução nos estudos e práticas da área.  
+Meu objetivo com este repositório é registrar e documentar:
 
-Este repositório é atualizado diariamente, conforme avanço nas minhas atividades práticas e teóricas.
-
-
-📂 Conteúdo do Repositório
---
-
-Atualmente, o repositório contém:
-
-### 🧪 Casos de Teste
-
-Conjunto de cenários criados para praticar análise, escrita e execução de testes.
-
-### 🐞 Relatórios de Bug (Bug Reports)
-
-Coleta de bugs identificados durante exercícios, práticas ou estudos, documentados seguindo boas práticas. O conteúdo será expandido continuamente conforme meu aprendizado evolui.
-
-### 📝 Organização e Registro dos Estudos
-
-Além deste repositório, mantenho um registro completo no meu Notion, onde documento:
-
-- Anotações de estudo.
-- Casos de teste detalhados.
-- Planos de Testes simples.
-- Relatórios de bug mais complexos ou relevantes.
-- Checklist de estudos.
-- Referências e materiais adicionais.
-
-O Notion funciona como meu hub central de estudos e acompanhamento de progresso.
-
-##### Cronograma: https://www.notion.so/CRONOGRAMA-2aef58c619e9803b8da6d8471763977b?source=copy_link
+- Meus estudos teóricos e práticos em QA
+- Casos de teste e relatórios de bugs
+- Boas práticas e metodologias de teste
+- Desenvolvimento de habilidades profissionais em documentação e automação de testes
 
 ---
 
-🎯 Objetivo do Repositório
---
+## 📖 Introdução
 
-- Desenvolver habilidades práticas em QA
+Este repositório foi criado como **registro do meu aprendizado em QA**, reunindo:
 
-- Criar histórico visível da evolução do aprendizado
+- Casos de teste criados por mim
+- Relatórios de bugs documentados
+- Materiais de referência e exercícios práticos
 
-- Exercitar escrita profissional de cenários e relatórios
+Tudo aqui é atualizado continuamente, conforme avanço nos estudos e realizo atividades práticas.
 
-- Consolidar melhores práticas de teste
+---
 
-🚧 Atualizações Futuras
---
+## 📂 Conteúdo do Repositório
 
-Conforme avanço, pretendo adicionar:
+O repositório está organizado em pastas, cada uma com uma finalidade específica:
 
-✔️ Testes exploratórios
+- **`projects/`** – Contém projetos completos de estudo, testes manuais e automatizados.  
+- **`testes_automatizados/`** – Exemplos de testes automatizados, incluindo projetos em Cypress e outros frameworks.  
+- **`testes_manuais/`** – Arquivos de testes manuais, planilhas, PDFs ou documentos de exploração de aplicações.  
+- **`bug_reports/`** – Relatórios de bugs identificados durante exercícios e estudos, com documentação detalhada.
 
-✔️ Matrizes de teste
+#### 🐞 Bug Reports Atuais
 
-✔️ Checklist de qualidade
+- [BUG-001_SauceDemo - Mecanismo de Quantidade de Itens.pdf](bug_reports/BUG-001_SauceDemo%20-%20Mecanismo%20de%20Quantidade%20de%20Itens.pdf)  
+  Relatório sobre o funcionamento do mecanismo de quantidade de itens no projeto SauceDemo.
 
-✔️ Estudos sobre automação
+- [BUG-002_nopCommerce - Fluxo de Cadastro com Permissão Indevida.pdf](bug_reports/BUG-002_nopCommerce%20-%20Fluxo%20de%20Cadastro%20com%20Permissão%20Indevida.pdf)  
+  Relatório sobre problema de fluxo de cadastro permitindo ações não autorizadas no nopCommerce.
 
-✔️ Documentações e templates
+---
 
-✔️ Exemplos de testes em ferramentas e metodologias diferentes
+## 🛠️ Como utilizar este repositório
 
+Você pode clonar ou copiar este repositório para seu computador para estudar, testar ou usar como referência.  
 
-🤝 Contribuições
---
-Este é um repositório pessoal de estudos, mas sugestões são sempre bem-vindas!
+### Passo a passo:
 
-Se quiser contribuir com feedback ou recomendações, fique à vontade para abrir uma issue ou me chamar.
+**1️⃣ Abrindo o terminal**  
+- Windows: CMD ou PowerShell  
+- VSCode: Terminal integrado (`Ctrl + ``)  
+- Linux/macOS: Terminal ou Bash  
+
+**2️⃣ Clonando o repositório**
+
+```bash
+git clone https://github.com/jwsbreal/qa-estudos.git
