@@ -35,15 +35,30 @@ O repositório está organizado em pastas, cada uma com uma finalidade específi
 - **`testes_manuais/`** – Arquivos de testes manuais, planilhas, PDFs ou documentos de exploração de aplicações.  
 - **`bug_reports/`** – Relatórios de bugs identificados durante exercícios e estudos, com documentação detalhada.
 
-#### 🐞 Bug Reports Atuais
+---
 
-- [BUG-001_SauceDemo - Mecanismo de Quantidade de Itens.pdf](bug_reports/BUG-001_SauceDemo%20-%20Mecanismo%20de%20Quantidade%20de%20Itens.pdf)  
-  Relatório sobre o funcionamento do mecanismo de quantidade de itens no projeto SauceDemo.
+### 🐞 Relatórios de Bug (Bug Reports)
 
-- [BUG-002_nopCommerce - Fluxo de Cadastro com Permissão Indevida.pdf](bug_reports/BUG-002_nopCommerce%20-%20Fluxo%20de%20Cadastro%20com%20Permissão%20Indevida.pdf)  
-  Relatório sobre problema de fluxo de cadastro permitindo ações não autorizadas no nopCommerce.
+A pasta `bug_reports/` contém relatórios de bugs que identifiquei durante meus exercícios e estudos.  
+Os arquivos seguem uma nomenclatura padrão `BUG-XXX_Projeto - Descrição.pdf`.
+
+- **SauceDemo:** BUG-001 – Mecanismo de quantidade de itens  
+- **nopCommerce:** BUG-002 – Fluxo de cadastro com permissão indevida  
+
+> Para ver todos os relatórios, acesse a pasta [`bug_reports`](bug_reports/).
 
 ---
+
+### 🧪 Casos de Teste
+
+A pasta `meus-casos-de-teste/` contém checklists e fluxos principais de diferentes aplicações, como Gmail, SauceDemo e nopCommerce.  
+Os arquivos estão nomeados com códigos T000 a T007, indicando a ordem e o projeto de estudo.
+
+- **Gmail:** T001, T002 – fluxos de login e cadastro  
+- **SauceDemo:** T003 – fluxo principal  
+- **nopCommerce:** T004 a T007 – fluxos de registro e testes de regras conflitantes  
+
+> Para ver todos os casos de teste, acesse a pasta [`meus-casos-de-teste`](meus-casos-de-teste/).
 
 ## 🛠️ Como utilizar este repositório
 
