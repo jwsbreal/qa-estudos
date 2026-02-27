@@ -60,6 +60,18 @@ Os arquivos estão nomeados com códigos T000 a T007, indicando a ordem e o proj
 
 > Para ver todos os casos de teste, acesse a pasta [`meus-casos-de-teste`](meus-casos-de-teste/).
 
+---
+### 🗂️ Planos de Teste
+
+A pasta `planos_de_teste/` contém documentos de planejamento de testes.  
+Cada arquivo segue a nomenclatura `TPXXX_Projeto.pdf`.
+
+- **nopCommerce:** TP001 – Plano de teste inicial  
+
+> Para ver todos os planos, acesse a pasta [`planos_de_teste`](planos_de_teste/).
+
+---
+
 ## 🛠️ Como utilizar este repositório
 
 Você pode clonar ou copiar este repositório para seu computador para estudar, testar ou usar como referência.  
