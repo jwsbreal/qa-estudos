@@ -2,13 +2,14 @@
 
 ---
 
-## 👤 Apresentação
+## 👋 Apresentação
 
-Olá! Meu nome é Jonathan, sou entusiasta de **Quality Assurance (QA)** e estou em constante evolução nos estudos e práticas da área.  
+Olá! Meu nome é Jonathan. Após 10 anos atuando nas áreas de departamento pessoal e financeiro, estou em transição de carreira para **Quality Assurance (QA)**. Este repositório reflete minha jornada de aprendizado e prática na área, com estudos teóricos, casos de teste, relatórios de bug e projetos de automação. Meu objetivo é consolidar habilidades práticas e documentar meu progresso de forma organizada e profissional. 
+
 Meu objetivo com este repositório é registrar e documentar:
 
 - Meus estudos teóricos e práticos em QA
-- Casos de teste e relatórios de bugs
+- Casos de teste, planos de teste e relatórios de bugs
 - Boas práticas e metodologias de teste
 - Desenvolvimento de habilidades profissionais em documentação e automação de testes
 
