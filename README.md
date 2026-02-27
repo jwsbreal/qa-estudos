@@ -69,7 +69,16 @@ Cada arquivo segue a nomenclatura `TPXXX_Projeto.pdf`.
 - **nopCommerce:** TP001 – Plano de teste inicial  
 
 > Para ver todos os planos, acesse a pasta [`planos_de_teste`](planos_de_teste/).
+---
+### 🗂️ Projetos
 
+A pasta `projects/` contém todos os meus projetos de QA, organizados em duas categorias principais:
+
+- **Testes Automatizados:** [`projects/testes_automatizados/`](projects/testes_automatizados/)  
+  Projetos para prática de automação, incluindo scripts em Cypress e outras ferramentas.
+
+- **Testes Manuais:** [`projects/testes_manuais/`](projects/testes_manuais/)  
+  Projetos que utilizo para praticar testes exploratórios e documentar casos manualmente.
 ---
 
 ## 🛠️ Como utilizar este repositório
