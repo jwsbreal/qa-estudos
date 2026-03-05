@@ -1,8 +1,4 @@
-# 📘 QA Estudos
-
----
-
-## 👋 Apresentação
+## Boas vindas e apresentação
 
 Olá! Meu nome é Jonathan. Após 10 anos atuando nas áreas de departamento pessoal e financeiro, estou em transição de carreira para **Quality Assurance (QA)**. Este repositório reflete minha jornada de aprendizado e prática na área, com estudos teóricos, casos de teste, relatórios de bug e projetos de automação. Meu objetivo é consolidar habilidades práticas e documentar meu progresso de forma organizada e profissional. 
 
@@ -12,8 +8,6 @@ Meu objetivo com este repositório é registrar e documentar:
 - Casos de teste, planos de teste e relatórios de bugs
 - Boas práticas e metodologias de teste
 - Desenvolvimento de habilidades profissionais em documentação e automação de testes
-
----
 
 ## 📖 Introdução
 
@@ -25,8 +19,6 @@ Este repositório foi criado como **registro do meu aprendizado em QA**, reunind
 
 Tudo aqui é atualizado continuamente, conforme avanço nos estudos e realizo atividades práticas.
 
----
-
 ## 📂 Conteúdo do Repositório
 
 O repositório está organizado em pastas, cada uma com uma finalidade específica:
@@ -36,8 +28,7 @@ O repositório está organizado em pastas, cada uma com uma finalidade específi
 - **`testes_manuais/`** – Arquivos de testes manuais, planilhas, PDFs ou documentos de exploração de aplicações.  
 - **`bug_reports/`** – Relatórios de bugs identificados durante exercícios e estudos, com documentação detalhada.
 
----
-
+----
 ### 🐞 Relatórios de Bug (Bug Reports)
 
 A pasta `bug_reports/` contém relatórios de bugs que identifiquei durante meus exercícios e estudos.  
@@ -47,9 +38,7 @@ Os arquivos seguem uma nomenclatura padrão `BUG-XXX_Projeto - Descrição.pdf`.
 - **nopCommerce:** BUG-002 – Fluxo de cadastro com permissão indevida  
 
 > Para ver todos os relatórios, acesse a pasta [`bug_reports`](bug_reports/).
-
----
-
+----
 ### 🧪 Casos de Teste
 
 A pasta `meus-casos-de-teste/` contém checklists e fluxos principais de diferentes aplicações, como Gmail, SauceDemo e nopCommerce.  
@@ -61,7 +50,7 @@ Os arquivos estão nomeados com códigos T000 a T007, indicando a ordem e o proj
 
 > Para ver todos os casos de teste, acesse a pasta [`meus-casos-de-teste`](meus-casos-de-teste/).
 
----
+----
 ### 🗂️ Planos de Teste
 
 A pasta `planos_de_teste/` contém documentos de planejamento de testes.  
@@ -70,7 +59,8 @@ Cada arquivo segue a nomenclatura `TPXXX_Projeto.pdf`.
 - **nopCommerce:** TP001 – Plano de teste inicial  
 
 > Para ver todos os planos, acesse a pasta [`planos_de_teste`](planos_de_teste/).
----
+
+----
 ### 🗂️ Projetos
 
 A pasta `projects/` contém todos os meus projetos de QA, organizados em duas categorias principais:
@@ -80,13 +70,12 @@ A pasta `projects/` contém todos os meus projetos de QA, organizados em duas ca
 
 - **Testes Manuais:** [`projects/testes_manuais/`](projects/testes_manuais/)  
   Projetos que utilizo para praticar testes exploratórios e documentar casos manualmente.
----
-
-## 🛠️ Como utilizar este repositório
+----
+## 🛠️ Como utilizar este repositório 
 
 Você pode clonar ou copiar este repositório para seu computador para estudar, testar ou usar como referência.  
 
-### Passo a passo:
+## Passo a passo:
 
 **1️⃣ Abrindo o terminal**  
 - Windows: CMD ou PowerShell  
