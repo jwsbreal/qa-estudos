@@ -15,7 +15,6 @@ cypress/downloads/
 
 # Cypress cache
 .cache/
-Cypress/
 
 # ==============================
 # Environment variables
