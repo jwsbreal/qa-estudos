@@ -1,7 +1,35 @@
 ﻿using LeitorNFe.models;
 using LeitorNFe.services;
+using System.Windows.Forms;
 
-string pasta = @"C:\Users\MANUTENÇÃO\Desktop\Validador XML\XML NFE - RBP - 022026";
+Console.WriteLine("Programa iniciado...");
+
+string SelecionarPasta()
+{
+    Application.EnableVisualStyles();
+    Application.SetCompatibleTextRenderingDefault(false);
+
+    using var dialog = new FolderBrowserDialog();
+    dialog.Description = "Selecione a pasta onde estão os XML da NFe";
+
+    if (dialog.ShowDialog() == DialogResult.OK)
+    {
+        return dialog.SelectedPath;
+    }
+
+    return "";
+}
+
+string pasta = SelecionarPasta();
+
+if (string.IsNullOrEmpty(pasta))
+{
+    Console.WriteLine("Nenhuma pasta selecionada.");
+    return;
+}
+
+Console.WriteLine($"Pasta selecionada: {pasta}");
+// string pasta = @"C:\Users\MANUTENÇÃO\Desktop\Validador XML\XML NFE - RBP - 022026";
 
 List<NotaFiscal> notas = new();
 
