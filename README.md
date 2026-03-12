@@ -1,4 +1,4 @@
-## Boas vindas e apresentação
+## 📖 Boas vindas e apresentação
 
 Olá! Meu nome é Jonathan. Após 10 anos atuando nas áreas de departamento pessoal e financeiro, estou em transição de carreira para **Quality Assurance (QA)**. Este repositório reflete minha jornada de aprendizado e prática na área, com estudos teóricos, casos de teste, relatórios de bug e projetos de automação. Meu objetivo é consolidar habilidades práticas e documentar meu progresso de forma organizada e profissional. 
 
@@ -6,18 +6,10 @@ Meu objetivo com este repositório é registrar e documentar:
 
 - Meus estudos teóricos e práticos em QA
 - Casos de teste, planos de teste e relatórios de bugs
+- Materiais de referência e exercícios práticos
 - Boas práticas e metodologias de teste
 - Desenvolvimento de habilidades profissionais em documentação e automação de testes
 
-## 📖 Introdução
-
-Este repositório foi criado como **registro do meu aprendizado em QA**, reunindo:
-
-- Casos de teste criados por mim
-- Relatórios de bugs documentados
-- Materiais de referência e exercícios práticos
-
-Tudo aqui é atualizado continuamente, conforme avanço nos estudos e realizo atividades práticas.
 
 ## 📂 Conteúdo do Repositório
 
