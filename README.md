@@ -77,4 +77,4 @@ Você pode clonar ou copiar este repositório para seu computador para estudar, 
 **2️⃣ Clonando o repositório**
 
 ```bash
-git clone https://github.com/jwsbreal/qa-estudos.git
+git clone https://github.com/jwsbreal/qa-projects.git
